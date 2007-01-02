@@ -1,4 +1,5 @@
 Summary:	Console Locker
+Summary(pl):	Blokowanie konsoli
 Name:		cl
 Version:	0.2
 Release:	0.1
@@ -12,6 +13,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Linux Console locker by Rebane.
 
+%description -l pl
+Aplikacja autorstwa Rebane do blokowania konsoli linuksowej.
+
 %clean
 rm -rf $RPM_BUILD_ROOT
 
@@ -20,6 +24,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %build
 %{__make} \
+	CC="%{__cc}" \
 	OPTFLAGS="%{rpmcflags}"
 
 %install
