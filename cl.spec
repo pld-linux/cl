@@ -1,7 +1,7 @@
 Summary:	Console Locker
 Name:		cl
 Version:	0.1
-Release:	0.1
+Release:	0.2
 License:	RPL Rebane Public License (beerware)
 Group:		Applications/System
 Source0:	http://glen.alkohol.ee/cl/%{name}-%{version}.tar.bz2
@@ -29,4 +29,4 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%attr(755,root,root) %{_sbindir}/cl
+%attr(4755,root,root) %{_sbindir}/cl
