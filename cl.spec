@@ -1,5 +1,5 @@
 Summary:	Console Locker
-Summary(pl.UTF-8):   Blokowanie konsoli
+Summary(pl.UTF-8):	Blokowanie konsoli
 Name:		cl
 Version:	0.2
 Release:	0.1
