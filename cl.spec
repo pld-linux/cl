@@ -8,6 +8,7 @@ Group:		Applications/System
 Source0:	http://glen.alkohol.ee/cl/%{name}-%{version}.tar.bz2
 # Source0-md5:	5570c7f42a628e1181437b9ee51216f9
 URL:		http://glen.alkohol.ee/cl/
+BuildRequires:	pam-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
