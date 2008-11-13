@@ -2,7 +2,7 @@ Summary:	Console Locker
 Summary(pl.UTF-8):	Blokowanie konsoli
 Name:		cl
 Version:	0.2
-Release:	0.1
+Release:	1
 License:	RPL Rebane Public License (beerware)
 Group:		Applications/System
 Source0:	http://glen.alkohol.ee/cl/%{name}-%{version}.tar.bz2
